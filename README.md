@@ -1,5 +1,6 @@
 # TFM_QyS
-Trabajo Fin de Master. Modelo de tópicos Quejas y Sugerencias
+Trabajo Fin de Master. Extracción y visualización de los temas principales del Servicio online de quejas y sugerencias
+ del Ayuntamiento de Zaragoza mediante el uso de técnicas de modelado de tópicos y clustering
 ## Contenidos
 - [01_Analisis_Exploratorio](01_Analisis_Exploratorio.ipynb): Obtener datos, analizar valores vacíos, estadísticos sobre palabras, distribución de palabras.
 ### Preprocesado
@@ -17,9 +18,10 @@ Trabajo Fin de Master. Modelo de tópicos Quejas y Sugerencias
 - [04_04_Kmeans](04_04_evaluacion_cualitativa_exportacion_kmeans.ipynb)
 - [04_05_Aglomerativo](04_05_evaluacion_cualitativa_exportacion_agglomerative.ipynb)
 **Fiabilidad encuestadores**
-- [05_fiabilidad_evaluadores](05_evaluacion_cualitativa_fiabilidad_evaluadores.ipynb)
+- [05_fiabilidad_evaluadores](05_evaluacion_cualitativa_fiabilidad_evaluadores.ipynb) :  Fiabilidad entre evaluadores para datos de tipo nominal (documentos con respecto al tópico) y
+ ordinal (Calidad del tópico). Incluye: Porcentaje de acuerdo, Krippendorff’s Alpha, Gwet’s AC
 #### Combinación de evaluaciones
-- [06_evaluacion_combinada_modelos](06_evaluacion_combinada_modelos.ipynb)
+- [06_evaluacion_combinada_modelos](06_evaluacion_combinada_modelos.ipynb) : Unión de las evaluaciones para seleccionar el modelo 
 ### Post-clustering
 - [07_Post_clustering](07_Post_clustering.ipynb): Utilizar HDBSCAN para reducir el número de clústeres debido a solapamiento semático y dificultad para visualizar: Dendogramas del proceso.
 ### Visualización
