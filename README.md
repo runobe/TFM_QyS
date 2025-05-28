@@ -26,3 +26,5 @@ Trabajo Fin de Master. Extracción y visualización de los temas principales del
 - [07_Post_clustering](07_Post_clustering.ipynb): Utilizar HDBSCAN para reducir el número de clústeres debido a solapamiento semático y dificultad para visualizar: Dendogramas del proceso.
 ### Visualización
 - [08_Visualizacion_treemap](08_Visualizacion_treemap.ipynb): Generar el html necesario para construir una visualización basada en treemap. Calcular términos y documentos más representativos del clúster.
+### Recursos
+Carpeta que contiene las diferentes fuentes de datos utilizadas para construir los modelos, evaluaciones y visualización.
